@@ -84,11 +84,11 @@ class App extends Component {
         <button name="1" className="SA-Button" onClick={e => this.onClick(e.target.name)}>1</button>
         <button name="2" className="SA-Button" onClick={e => this.onClick(e.target.name)}>2</button>
         <button name="3" className="SA-Button" onClick={e => this.onClick(e.target.name)}>3</button>
-        <button name="x" className="SA-Button" onClick={e => this.onClick(e.target.name)}>x</button><br></br>
+        <button name="*" className="SA-Button" onClick={e => this.onClick(e.target.name)}>x</button><br></br>
         <button name="." className="SA-Button" onClick={e => this.onClick(e.target.name)}>.</button>
         <button name="0" className="SA-Button" onClick={e => this.onClick(e.target.name)}>0</button>
         <button name="=" className="SA-Button" onClick={e => this.onClick(e.target.name)}>=</button>
-        <button name="÷" className="SA-Button" onClick={e => this.onClick(e.target.name)}>÷</button>
+        <button name="/" className="SA-Button" onClick={e => this.onClick(e.target.name)}>÷</button>
       </div>
     );
   }
